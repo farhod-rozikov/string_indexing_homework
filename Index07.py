@@ -6,4 +6,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    if len(s) > n:
+        return s[n]
+print(main('abc', 4))

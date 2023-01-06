@@ -8,4 +8,6 @@ def main(s,n):
     """
     if len(s) > n:
         return s[n]
+    else:
+        False
 print(main('abc', 4))

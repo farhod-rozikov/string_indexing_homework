@@ -9,5 +9,5 @@ def main(s,n):
     if len(s) > n:
         return s[n]
     else:
-        False
+        return False
 print(main('abc', 4))

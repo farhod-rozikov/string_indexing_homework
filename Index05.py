@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    d_count = 0
+    if s[0].isdigit():
+        d_count += 1
+    if s[1].isdigit():
+        d_count += 1
+    if s[2].isdigit():
+        d_count += 1
+    if s[3].isdigit():
+        d_count += 1
+    if s[4].isdigit():
+        d_count += 1
+    return d_count
